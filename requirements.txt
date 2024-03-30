@@ -1,2 +1,2 @@
-Flask==2.0.2
-SQLAlchemy==1.4.26
+flask==2.0.2
+flask_sqlalchemy==1.4.26
