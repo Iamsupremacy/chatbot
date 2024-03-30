@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mental Health Chatbot</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      div {
+        background-color: rgb(7, 194, 194);
+      }
+
+      .chat-container {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .chat-box {
+        height: 300px;
+        overflow-y: auto;
+        padding: 10px;
+      }
+
+      .user-input-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+      }
+
+      .user-input {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        outline: none;
+      }
+
+      .send-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        background-color: #1d7ee6;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .send-btn:hover {
+        background-color: #0056b3;
+      }
+      .bot {
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(150, 233, 233); background-image: url()">
+    <h2 style="text-align: center; color: rgb(16, 119, 154)">
+      Mental health Chatbot
+    </h2>
+    <div class="bot">
+      <iframe
+        style="width: 99vw; height: 80vh"
+        src="https://app.fastbots.ai/embed/club77quj01y9r9b1g142ykm8"
+      ></iframe>
+    </div>
+    <!-- <div class="chat-container" id="chat-container">
+      <div
+        style="background-color: rgb(207, 247, 247)"
+        class="chat-box"
+        id="chat-box"
+      ></div>
+      <div class="user-input-container">
+        <input
+          type="text"
+          id="user-input"
+          class="user-input"
+          placeholder="Type a message..."
+        />
+        <button id="send-btn" class="send-btn">Send</button>
+      </div>
+    </div> -->
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const chatBox = document.getElementById("chat-box");
+        const userInput = document.getElementById("user-input");
+        const sendBtn = document.getElementById("send-btn");
+
+        sendBtn.addEventListener("click", function () {
+          const userMessage = userInput.value.trim();
+          if (userMessage !== "") {
+            displayMessage("user", userMessage);
+            // Process user message and get bot response
+            getBotResponse(userMessage);
+            userInput.value = "";
+          }
+        });
+
+        function displayMessage(sender, message) {
+          const messageElement = document.createElement("div");
+          messageElement.classList.add(
+            sender === "user" ? "user-message" : "bot-message"
+          );
+          messageElement.innerText = message;
+          chatBox.appendChild(messageElement);
+          chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function getBotResponse(userMessage) {
+          // Simulating a simple bot response
+          const botResponse = "This is a bot response to: " + userMessage;
+          displayMessage("bot", botResponse);
+        }
+      });
+    </script> -->
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
